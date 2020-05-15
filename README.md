@@ -55,6 +55,13 @@ compat-openssl10-devel.i686 : Files for development of applications which have t
 ```
 That was enough to get the citrix receiver to now run.
 
+Addeddum - how to get a different resolution as the Citrix receiver was consuming all 3 of my screens. To force a different geometry use:
+
+```
+-geometry 3840x2160
+```
+As an additional command line flag to the wfica command (assuming you also have a 4K screen).
+
 ## Additional Steps if you need a custom certificate
 
 If you also need a custom certificate, then you will also need to follow these steps replacing the DigiSign cert I needed with the one you are missing.
